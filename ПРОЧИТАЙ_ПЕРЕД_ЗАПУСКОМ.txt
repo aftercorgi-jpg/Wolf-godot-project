@@ -1,0 +1,8 @@
+Если Godot пишет Could not resolve script res://scripts/wolf.gd:
+1. В FileSystem слева раскрой res://, затем папку scripts.
+2. Убедись, что внутри есть wolf.gd, main.gd, hud.gd, prey.gd, mobile_joystick.gd и food_pickup.gd.
+3. Если wolf.gd отсутствует, распакуй этот ZIP заново целиком в новую пустую папку. Не копируй поверх старого проекта.
+4. В Godot открой project.godot именно из новой папки.
+5. Если wolf.gd присутствует, нажми Project > Reload Current Project. Если ошибка останется, пришли скрин с раскрытой папкой scripts и вкладкой Ошибки.
+
+В архиве проверено наличие scripts/wolf.gd и всех файлов скриптов.
